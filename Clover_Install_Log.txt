@@ -1,0 +1,74 @@
+
+Clover EFI installer log - Sat Jun  1 12:41:44 CST 2019
+Installer version: v2.4k r4630 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         512.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk3         128.1 GB   disk0s2
+   3:                 Apple_APFS Container disk2         383.8 GB   disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk1
+   1:           Windows Recovery                         523.2 MB   disk1s1
+   2:                        EFI NO NAME                 104.9 MB   disk1s2
+   3:         Microsoft Reserved                         16.8 MB    disk1s3
+   4:       Microsoft Basic Data WinTen                  119.4 GB   disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +383.8 GB   disk2
+                                 Physical Store disk0s3
+   1:                APFS Volume Cackle                  8.2 MB     disk2s1
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +128.1 GB   disk3
+                                 Physical Store disk0s2
+   1:                APFS Volume System                  57.9 GB    disk3s1
+   2:                APFS Volume Preboot                 24.0 MB    disk3s2
+   3:                APFS Volume Recovery                519.5 MB   disk3s3
+   4:                APFS Volume VM                      2.1 GB     disk3s4
+
+/dev/disk4 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *4.0 TB     disk4
+   1:                        EFI                         314.6 MB   disk4s1
+   2:         Microsoft Reserved                         134.2 MB   disk4s2
+   3:       Microsoft Basic Data WinDat                  549.8 GB   disk4s3
+   4:       Microsoft Basic Data                         549.8 GB   disk4s4
+   5:       Microsoft Basic Data                         549.8 GB   disk4s5
+   6:       Microsoft Basic Data                         549.8 GB   disk4s6
+   7:       Microsoft Basic Data                         549.8 GB   disk4s7
+   8:                  Apple_HFS Movies                  549.6 GB   disk4s8
+   9:                  Apple_HFS Backup                  549.6 GB   disk4s9
+  10:                 Apple_APFS Container disk5         152.0 GB   disk4s10
+
+/dev/disk5 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +152.0 GB   disk5
+                                 Physical Store disk4s10
+
+/dev/disk6 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk6
+   1:                        EFI EFI                     209.7 MB   disk6s1
+   2:                  Apple_HFS Install macOS Hsierra   10.0 GB    disk6s2
+   3:                  Apple_HFS USB                     9.6 GB     disk6s3
+   4:                  Apple_HFS backup                  99.9 GB    disk6s4
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/USB/EFIROOTDIR/EFI folder to /Volumes/USB/EFI-Backups/r4630/2019-06-01-12h41/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/USB
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/USB
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
