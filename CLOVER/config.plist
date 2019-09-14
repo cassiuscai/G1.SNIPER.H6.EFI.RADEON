@@ -272,6 +272,22 @@
 				SW50ZXJuYWw=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB 10.13.6+ by PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g32IDw+DpwQAAA==
+				</data>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g32ID5CQkJCQkA==
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
